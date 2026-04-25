@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 // import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import Slider from "components/Slider.js";
+import StatsSection from "components/StatsSection.js";
+import CTASection from "components/CTASection.js";
+import TestimonialsSection from "components/TestimonialsSection.js";
+import NewsletterSection from "components/NewsletterSection.js";
 
 // Importar imagem
 // import visaovaloresImage from "assets/img/visaovalores.png";
@@ -1360,6 +1364,18 @@ export default function Index() {
                   </div>
         </section>
       </section>
+
+      {/* Stats Section */}
+      <StatsSection />
+
+      {/* Testimonials Section */}
+      <TestimonialsSection />
+
+      {/* Newsletter Section */}
+      <NewsletterSection />
+
+      {/* CTA Section */}
+      <CTASection />
     </>
   );
 }
